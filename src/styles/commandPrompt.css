@@ -1,0 +1,33 @@
+.command-prompt-container {
+  background: var(--bg-window);
+  height: 28.75rem;
+  width: 40rem;
+  font-size: 0.875rem;
+  /* margin-bottom: auto; */
+}
+
+.command-prompt-container header {
+  color: #FFF;
+  background: #0D0D0D;
+
+  padding: 0.25rem 1rem;
+}
+
+.command-prompt-container article {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  color: var(--green);
+  padding: 0.5rem 1rem 1rem;
+}
+
+.line {
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.dir-content-footer {
+  margin-top: 1rem;
+}
